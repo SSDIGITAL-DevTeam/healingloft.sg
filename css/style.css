@@ -2,12 +2,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #553a31;
+    border-color: #553a31 transparent #553a31 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 .btn-royal-brown {
     color: #fff;
     background-color: #553a31;
     border-radius: 12px;
     text-transform: capitalize;
     font-size: 20px;
+}
+
+.on-focus-color:focus {
+    color: #553a31;
 }
 
 .outline {
@@ -42,6 +75,7 @@
 .mt-40 {
     margin-top: 40px;
 }
+
 .mt-20 {
     margin-top: 20px;
 }
@@ -58,6 +92,7 @@
     font-size: 36px;
     font-weight: 600;
 }
+
 .font-roboto-text {
     font-family: "Roboto", serif;
     color: #fff;
@@ -118,7 +153,7 @@
     margin-bottom: 56px;
 }
 
-.container > p {
+.container>p {
     text-align: center;
 }
 
@@ -134,7 +169,7 @@
     margin-top: 86px;
 }
 
-div > div > a {
+div>div>a {
     color: #553a31;
     font-weight: 600;
     font-size: 20px;
@@ -145,7 +180,7 @@ ul.list-style {
     list-style: circle;
 }
 
-ul.navlist > li {
+ul.navlist>li {
     list-style: none;
     margin-left: 40px;
 }
@@ -155,11 +190,13 @@ ul.navlist > li {
     height: 300px;
     width: 500px;
 }
+
 .car-img-2 {
     background-image: url("../img/car-img-2.png");
     height: 300px;
     width: 500px;
 }
+
 .car-img-3 {
     background-image: url("../img/car-img-3.png");
     height: 300px;
@@ -172,7 +209,7 @@ ul.navlist > li {
     border-radius: 36px;
 }
 
-.splide__slide > img {
+.splide__slide>img {
     height: 280px;
     border-radius: 36px;
     background-size: cover;
@@ -212,6 +249,7 @@ ul.navlist > li {
     /* display: none; */
     opacity: 0;
 }
+
 #parent-2:hover .text {
     opacity: 1;
     display: block;
@@ -221,6 +259,7 @@ ul.navlist > li {
     /* display: none; */
     opacity: 0;
 }
+
 #parent-3:hover .text {
     opacity: 1;
     display: block;
@@ -233,18 +272,17 @@ ul.navlist > li {
 
 .swiper-slide--one {
     background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-        url("https://images.unsplash.com/photo-1628944682084-831f35256163?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80")
-            no-repeat 50% 50% / cover;
+        url("https://images.unsplash.com/photo-1628944682084-831f35256163?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80") no-repeat 50% 50% / cover;
 }
+
 .swiper-slide--two {
     background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-        url("https://images.unsplash.com/photo-1515309025403-4b0184873cef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80")
-            no-repeat 50% 50% / cover;
+        url("https://images.unsplash.com/photo-1515309025403-4b0184873cef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80") no-repeat 50% 50% / cover;
 }
+
 .swiper-slide--three {
     background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-        url("https://images.unsplash.com/photo-1545671913-b89ac1b4ac10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")
-            no-repeat 50% 50% / cover;
+        url("https://images.unsplash.com/photo-1545671913-b89ac1b4ac10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") no-repeat 50% 50% / cover;
 }
 
 .product-card:hover {
@@ -256,6 +294,7 @@ ul.navlist > li {
     /* transform: scale(1.2); */
     overflow: hidden;
 }
+
 /* .product-thumbnail:hover {
     transform: scale(1.2);
     overflow: hidden;
@@ -287,12 +326,12 @@ ul.navlist > li {
         align-items: center;
     }
 
-    ul.navlist > li {
+    ul.navlist>li {
         list-style: none;
         margin-left: 0px;
     }
 
-    div.collapse > button {
+    div.collapse>button {
         min-width: 100%;
     }
 
@@ -335,7 +374,8 @@ ul.navlist > li {
     .splide {
         margin-top: 24px;
     }
-    .splide__slide > img {
+
+    .splide__slide>img {
         height: 160px;
         border-radius: 36px;
         background-size: cover;
@@ -357,7 +397,7 @@ ul.navlist > li {
         display: none;
     }
 
-    .section-header > .section-title {
+    .section-header>.section-title {
         font-size: 32px;
         margin-top: 8px;
         font-weight: 700;
