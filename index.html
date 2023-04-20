@@ -329,8 +329,7 @@
                     class="d-flex flex-column flex-lg-row justify-content-center align-items-center mt-offer"
                 >
                     <div
-                        class="col-lg-6 col-xs-12 mb-5 mb-lg-0 d-flex justify-content-center align-items-center"
-                        style="height: 720px; max-width: 420px"
+                        class="col-lg-6 col-xs-12 mb-5 mb-lg-0 d-flex justify-content-center align-items-center hide-on-mobile"
                     >
                         <img
                             class="img-offer"
@@ -438,7 +437,7 @@
                                         class="swiper-slide"
                                         style="
                                             position: relative;
-                                            aspect-ratio: 1/1;
+                                            /* aspect-ratio: 1/1; */
                                         "
                                     >
                                         <img
@@ -456,7 +455,7 @@
                                         class="swiper-slide"
                                         style="
                                             position: relative;
-                                            aspect-ratio: 1/1;
+                                            /* aspect-ratio: 1/1; */
                                         "
                                     >
                                         <img
@@ -474,7 +473,7 @@
                                         class="swiper-slide"
                                         style="
                                             position: relative;
-                                            aspect-ratio: 1/1;
+                                            /* aspect-ratio: 1/1; */
                                         "
                                     >
                                         <img
@@ -795,7 +794,7 @@
                 </div> -->
                 <div
                     id="demo"
-                    class="carousel slide carousel-fade"
+                    class="carousel slide carousel-fade hide-on-mobile"
                     data-ride="carousel"
                 >
                     <ul class="carousel-indicators">
@@ -1011,7 +1010,7 @@
         <section id="contact" class="" style="margin-top: -80px">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-xs-12">
+                    <div class="col-lg-6 col-xs-12" style="margin-bottom: 32px">
                         <div class="section-header mt-5 pt-5">
                             <p class="font-josefin-sans">
                                 – Ready to refresh your body ?
@@ -1102,7 +1101,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-xs-12">
+                    <div class="col-lg-6 col-xs-12 hide-on-mobile">
                         <img
                             src="img/photos/form.png"
                             alt=""
@@ -1253,7 +1252,7 @@
             loop: true,
             pagination: {
                 el: ".swiper-pagination",
-                clickable: true,
+                clickable: false,
             },
             breakpoints: {
                 640: {

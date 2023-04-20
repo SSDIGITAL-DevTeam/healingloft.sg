@@ -347,4 +347,13 @@ ul.navlist > li {
     .three-leaves {
         height: 100px;
     }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .section-header > .section-title {
+        font-size: 28px;
+        margin-top: 8px;
+    }
 }
