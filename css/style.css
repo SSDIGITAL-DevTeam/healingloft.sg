@@ -366,4 +366,8 @@ ul.navlist > li {
     .contact-style {
         margin-top: 60px;
     }
+
+    .btn-nav {
+        width: 100%;
+    }
 }
