@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 .lds-dual-ring {
     display: inline-block;
@@ -10,7 +9,7 @@
 }
 
 .lds-dual-ring:after {
-    content: " ";
+    content: ' ';
     display: block;
     width: 64px;
     height: 64px;
@@ -52,12 +51,12 @@
 }
 
 .heading {
-    font-family: "Cormorant Garamond", serif;
+    font-family: 'Cormorant Garamond', serif;
     font-weight: 400;
 }
 
 .heading-banner {
-    font-family: "Cormorant Garamond", serif;
+    font-family: 'Cormorant Garamond', serif;
     text-transform: uppercase;
     font-size: 48px;
     font-weight: 600;
@@ -67,7 +66,7 @@
 }
 
 .desc {
-    font-family: "Roboto", serif;
+    font-family: 'Roboto', serif;
     color: #000;
     font-size: 16px;
 }
@@ -81,20 +80,20 @@
 }
 
 .font-josefin-sans {
-    font-family: "Josefin Sans", serif;
+    font-family: 'Josefin Sans', serif;
     color: #8b0000;
     font-size: 20px;
 }
 
 .font-josefin-heading {
-    font-family: "Josefin Sans", serif;
+    font-family: 'Josefin Sans', serif;
     color: #fff;
     font-size: 36px;
     font-weight: 600;
 }
 
 .font-roboto-text {
-    font-family: "Roboto", serif;
+    font-family: 'Roboto', serif;
     color: #fff;
     font-size: 16px;
 }
@@ -112,12 +111,12 @@
     left: -64px;
     font-size: 24px;
     position: absolute;
-    font-family: "Cormorant Garamond", serif;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .price {
     color: #1d1d1d;
-    font-family: "Anton";
+    font-family: 'Anton';
     font-size: 60px;
     position: relative;
     padding-top: 64px;
@@ -126,19 +125,19 @@
 
 .timer {
     font-size: 16px;
-    font-family: "Cormorant Garamond", serif;
+    font-family: 'Cormorant Garamond', serif;
     color: #000;
 }
 
 .offer {
     background-color: #553a31;
-    font-family: "Josefin Sans", serif;
+    font-family: 'Josefin Sans', serif;
     color: #ffffff;
     height: 236px;
 }
 
 .tnc {
-    font-family: "Roboto", serif;
+    font-family: 'Roboto', serif;
     font-weight: 600;
     color: #000;
     margin-bottom: 32px;
@@ -153,12 +152,12 @@
     margin-bottom: 56px;
 }
 
-.container>p {
+.container > p {
     text-align: center;
 }
 
 .feedback {
-    background-image: url("../img/feedback-bg.png");
+    background-image: url('../img/feedback-bg.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -169,36 +168,36 @@
     margin-top: 86px;
 }
 
-div>div>a {
+div > div > a {
     color: #553a31;
     font-weight: 600;
     font-size: 20px;
-    font-family: "Cormorant Garamond", serif;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 ul.list-style {
     list-style: circle;
 }
 
-ul.navlist>li {
+ul.navlist > li {
     list-style: none;
     margin-left: 40px;
 }
 
 .car-img-1 {
-    background-image: url("../img/car-img-1.png");
+    background-image: url('../img/car-img-1.png');
     height: 300px;
     width: 500px;
 }
 
 .car-img-2 {
-    background-image: url("../img/car-img-2.png");
+    background-image: url('../img/car-img-2.png');
     height: 300px;
     width: 500px;
 }
 
 .car-img-3 {
-    background-image: url("../img/car-img-3.png");
+    background-image: url('../img/car-img-3.png');
     height: 300px;
     width: 100%;
 }
@@ -209,7 +208,7 @@ ul.navlist>li {
     border-radius: 36px;
 }
 
-.splide__slide>img {
+.splide__slide > img {
     height: 280px;
     border-radius: 36px;
     background-size: cover;
@@ -231,7 +230,7 @@ ul.navlist>li {
 
 .main-heading {
     font-size: 76px;
-    font-family: "Cormorant Garamond", serif;
+    font-family: 'Cormorant Garamond', serif;
     color: #fff;
 }
 
@@ -272,17 +271,20 @@ ul.navlist>li {
 
 .swiper-slide--one {
     background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-        url("https://images.unsplash.com/photo-1628944682084-831f35256163?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80") no-repeat 50% 50% / cover;
+        url('https://images.unsplash.com/photo-1628944682084-831f35256163?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80')
+            no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--two {
     background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-        url("https://images.unsplash.com/photo-1515309025403-4b0184873cef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80") no-repeat 50% 50% / cover;
+        url('https://images.unsplash.com/photo-1515309025403-4b0184873cef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80')
+            no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--three {
     background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-        url("https://images.unsplash.com/photo-1545671913-b89ac1b4ac10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") no-repeat 50% 50% / cover;
+        url('https://images.unsplash.com/photo-1545671913-b89ac1b4ac10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80')
+            no-repeat 50% 50% / cover;
 }
 
 .product-card:hover {
@@ -308,7 +310,7 @@ ul.navlist>li {
 @media (max-width: 992px) {
     .main-heading {
         font-size: 40px;
-        font-family: "Cormorant Garamond", serif;
+        font-family: 'Cormorant Garamond', serif;
         color: #fff;
         margin-bottom: 36px;
     }
@@ -326,17 +328,17 @@ ul.navlist>li {
         align-items: center;
     }
 
-    ul.navlist>li {
+    ul.navlist > li {
         list-style: none;
         margin-left: 0px;
     }
 
-    div.collapse>button {
+    div.collapse > button {
         min-width: 100%;
     }
 
     .heading-banner {
-        font-family: "Cormorant Garamond", serif;
+        font-family: 'Cormorant Garamond', serif;
         text-transform: uppercase;
         font-size: 32px;
         font-weight: 600;
@@ -375,7 +377,7 @@ ul.navlist>li {
         margin-top: 24px;
     }
 
-    .splide__slide>img {
+    .splide__slide > img {
         height: 160px;
         border-radius: 36px;
         background-size: cover;
@@ -397,7 +399,7 @@ ul.navlist>li {
         display: none;
     }
 
-    .section-header>.section-title {
+    .section-header > .section-title {
         font-size: 32px;
         margin-top: 8px;
         font-weight: 700;
@@ -409,5 +411,11 @@ ul.navlist>li {
 
     .btn-nav {
         width: 100%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .carousel-caption {
+        margin-bottom: 200px;
     }
 }

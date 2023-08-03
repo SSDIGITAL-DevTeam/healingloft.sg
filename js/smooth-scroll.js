@@ -9,6 +9,6 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 });
 
 function scrollToElement() {
-  var elmnt = document.getElementById("contact"); 
+  var elmnt = document.getElementById("contact");
   elmnt.scrollIntoView({ behavior: "smooth", block: "start" });
 }
