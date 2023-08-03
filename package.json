@@ -1,0 +1,35 @@
+{
+	"name": "healingloft-redesign",
+	"version": "0.1.0",
+	"private": true,
+	"homepage": "https://healingloft.sg",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "NODE_ENV=production node server.js",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@heroicons/react": "^2.0.18",
+		"@types/fslightbox-react": "^1.7.3",
+		"@types/node": "20.4.5",
+		"@types/react": "18.2.17",
+		"@types/react-dom": "18.2.7",
+		"autoprefixer": "10.4.14",
+		"eslint": "8.45.0",
+		"eslint-config-next": "13.4.12",
+		"fslightbox-react": "^1.7.6",
+		"next": "13.4.12",
+		"postcss": "8.4.27",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"sharp": "^0.32.4",
+		"tailwindcss": "3.3.3",
+		"typescript": "5.1.6",
+		"usehooks-ts": "^2.9.1"
+	},
+	"devDependencies": {
+		"prettier": "^3.0.0",
+		"prettier-plugin-tailwindcss": "^0.4.1"
+	}
+}
