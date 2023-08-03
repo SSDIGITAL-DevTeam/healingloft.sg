@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		scroll-behavior: smooth;
+	}
+}
+
+@layer components {
+	.c-button-primary {
+		@apply rounded-2xl px-8 py-4 font-semibold hover:scale-105 duration-150;
+	}
+
+	.c-input {
+		@apply w-full border-b border-black outline-none py-1.5;
+	}
+}
+
+@layer utilities {
+	.max-w-8xl {
+		max-width: 1366px;
+	}
+}
+
+.react-international-phone-input {
+	@apply w-full;
+
+	padding-block: 18px !important;
+	border-style: none !important;
+}
+
+.react-international-phone-country-selector {
+	@apply min-w-max;
+	outline: 2px solid transparent;
+	outline-offset: 2px;
+	border-style: none;
+}
+
+.react-international-phone-country-selector > * {
+	padding-block: 18px !important;
+	border-style: none !important;
+}
