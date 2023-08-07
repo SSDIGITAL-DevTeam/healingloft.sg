@@ -20,7 +20,7 @@ export default function Footer(): JSX.Element {
 	}, [])
 
 	return (
-		<footer className='bg-primary/25 text-primary'>
+		<footer className='bg-footer text-primary'>
 			<div className='container p-4'>
 				<div className='flex flex-col items-center gap-y-6 p-8'>
 					<Image src={Logo} className='w-16' alt='logo' />
@@ -74,7 +74,7 @@ export default function Footer(): JSX.Element {
 					target='_blank'
 					className={`${
 						scrollTop > 0 ? 'scale-100' : 'scale-0'
-					} fixed bottom-6 right-4 lg:right-6 rounded-full border bg-[#25d366] px-3 py-2.5 lg:p-4 lg:py-2 text-white shadow-lg duration-200 hover:scale-105 hover:bg-[#075e54] hover:text-white`}
+					} fixed bottom-6 right-4 lg:right-6 rounded-full bg-[#25d366] px-3 py-2.5 lg:p-4 lg:py-2 text-white shadow-lg duration-200 hover:scale-105 hover:bg-[#075e54] hover:text-white`}
 				>
 					<div className='flex items-center gap-x-2 font-semibold'>
 						<Image src={WhatsappSvg} width={28} height={28} alt='WhatsApp' />

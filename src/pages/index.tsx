@@ -20,7 +20,7 @@ import { NavContext } from '@/context/NavContext'
 import ValueCard from '@/components/cards/valuecard'
 
 export default function Home(): JSX.Element {
-	// state
+	// states
 	const [isYoutubeShow, setIsYoutubeShow] = useState<boolean>(false)
 	const [isLoading, setIsloading] = useState<boolean>(true)
 
@@ -277,7 +277,7 @@ export default function Home(): JSX.Element {
 									className={`${isMobile ? 'rounded-2xl' : ''} ${
 										isLoading ? 'scale-0' : 'lg:scale-100'
 									} aspect-video min-w-full duration-500`}
-									src='https://www.youtube.com/embed/erHLnLOiQ40'
+									src='https://www.youtube.com/embed/ze9i4z1A81E'
 									allowFullScreen
 								></iframe>
 							</div>
@@ -338,35 +338,54 @@ export default function Home(): JSX.Element {
 				</div>
 
 				{/* appointment section */}
-				<div ref={contactRef} className='w-full relative px-8 pt-12 pb-32 lg:pb-20 overflow-hidden'>
+				<div
+					ref={contactRef}
+					className='w-full flex flex-col lg:flex-row lg:gap-x-8 relative px-8 pt-12 pb-20 lg:pb-12 overflow-hidden'
+				>
 					<div className='absolute -top-20' id='contact'></div>
-					<div className='relative flex flex-col items-center gap-y-6 lg:gap-y-2 text-center'>
-						<Image className='w-24' src={ThreeLeaves} alt='three-leaves-image' />
+					{/* background */}
+					<div className=''>
+						<Image
+							className='w-80 absolute -top-44 -left-40 lg:w-96 lg:scale-150 lg:top-80 lg:left-40 2xl:top-96 2xl:left-80'
+							src={ThreeLeavesBg}
+							alt='three-leaves-image'
+						/>
+						<Image
+							className='w-96 scale-150 absolute -bottom-40 -right-32 lg:scale-125 lg:-right-44'
+							src={ThreeLeavesBg}
+							alt='three-leaves-image'
+						/>
+					</div>
 
-						{/* background */}
-						<div className=''>
-							<Image
-								className='w-80 absolute -top-52 -left-48 lg:w-96 lg:scale-150 lg:top-20 lg:-left-20'
-								src={ThreeLeavesBg}
-								alt='three-leaves-image'
-							/>
-							<Image
-								className='w-96 scale-150 absolute -bottom-40 -right-32 lg:scale-125 lg:-right-44'
-								src={ThreeLeavesBg}
-								alt='three-leaves-image'
-							/>
+					<div className='w-full flex flex-col lg:flex-row gap-x-8 gap-y-28 container lg:p-8'>
+						<div className='w-full flex flex-col items-center justify-center gap-y-6 lg:gap-y-2 text-center'>
+							<Image className='w-24' src={ThreeLeaves} alt='three-leaves-image' />
+							<h2 className='text-4xl font-semibold text-primary lg:text-7xl mb-12'>CALL US NOW</h2>
+							<a
+								id='whatsapp-cta'
+								type='button'
+								aria-label='The Healing Loft'
+								href='tel:+6591444649'
+								target='_blank'
+								className='relative z-10 c-button-primary bg-primary text-white text-xl'
+							>
+								+65 9144 4649
+							</a>
 						</div>
-						<h2 className='text-4xl font-semibold text-primary lg:text-7xl mb-12'>CALL US NOW</h2>
-						<a
-							id='whatsapp-cta'
-							type='button'
-							aria-label='The Healing Loft'
-							href='tel:+6591444649'
-							target='_blank'
-							className='relative z-10 c-button-primary bg-primary text-white text-xl'
-						>
-							+65 9144 4649
-						</a>
+						<div className='w-full'>
+							<h2 className='text-4xl font-semibold mb-10 text-primary text-center lg:text-left'>
+								THE LOCATION
+							</h2>
+							<div className='w-full relative 2xl:pr-4'>
+								<iframe
+									className='aspect-square lg:aspect-auto lg:h-[450px] 2xl:h-[600px] w-full rounded-2xl'
+									src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6859375863637!2d103.8657901!3d1.365111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da16ff00000001%3A0xea1d62f334036a92!2sThe%20Healing%20Loft!5e0!3m2!1sid!2sid!4v1691380665529!5m2!1sid!2sid'
+									// width='600'
+									// height='450'
+									loading='lazy'
+								></iframe>
+							</div>
+						</div>
 					</div>
 				</div>
 			</main>
