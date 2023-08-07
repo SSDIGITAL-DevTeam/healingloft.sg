@@ -11,6 +11,7 @@ module.exports = {
 				primary: '#553A31',
 				secondary: '#FFC26F',
 				tertiary: '#B1602B',
+				footer: '#E5E1E0',
 			},
 
 			fontFamily: {
