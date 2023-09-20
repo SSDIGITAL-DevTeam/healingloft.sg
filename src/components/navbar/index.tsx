@@ -72,7 +72,7 @@ export default function Navbar(): JSX.Element {
 						<a
 							href='#contact'
 							type='button'
-							className='c-button-primary rounded-2xl bg-secondary px-8 py-4 text-black'
+							className='c-button-primary rounded-2xl bg-gradient-to-t from-[#CB9E00] via-[#FDD23A] to-[#CB9E00] px-8 py-4 text-primary'
 						>
 							Book Now
 						</a>
@@ -103,7 +103,7 @@ export default function Navbar(): JSX.Element {
 							<a
 								href='#contact'
 								type='button'
-								className='c-button-primary rounded-2xl bg-primary px-8 py-2.5 text-white'
+								className='c-button-primary rounded-2xl bg-gradient-to-t from-[#CB9E00] via-[#FDD23A] to-[#CB9E00] px-8 py-2.5 text-primary'
 							>
 								Book Now
 							</a>
