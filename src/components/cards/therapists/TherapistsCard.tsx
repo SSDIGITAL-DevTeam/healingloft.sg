@@ -141,14 +141,7 @@ export default function Treatment(): JSX.Element {
                 "Foot bath",
                 "Facial care"
             ]
-        }
-        
-        
-        
-        
-        
-        
-      
+        }         
        
     ]
 
@@ -161,7 +154,7 @@ export default function Treatment(): JSX.Element {
 
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                        className=' h-full w-full rounded-3xl object-cover'
+                        className=' h-full w-full rounded-3xl aspect-[3/4] lg:aspect-auto object-cover'
                         src={treatment.image.src}
                         alt={treatment.name}
                         aria-label={treatment.name}
@@ -176,11 +169,11 @@ export default function Treatment(): JSX.Element {
 
                         </div>
 {/* hover content */}
-                    <div className="space-y-6 absolute inset-0 flex flex-col   bg-white opacity-0 translate-y-[-20px] group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-1000 ease-in-out p-8">
-                            <h2 className="text-[#553A31] font-bold text-[24px]">
+                    <div className="space-y-2 lg:space-y-6 absolute inset-0 flex flex-col   bg-white opacity-0 translate-y-[-20px] group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-1000 ease-in-out p-8  rounded-3xl">
+                            <h2 className="text-[#553A31] font-bold text-[14px] lg:text-[24px]">
                                 {treatment.name + " (" + treatment.ethnicity+ ")" }
                             </h2>
-                            <p className="text-[#1A1A1A]">{treatment.desc}</p>
+                            <p className="text-[#1A1A1A] text-[12px] lg:text-[16px]">{treatment.desc}</p>
                         {/* expertise     */}
                         {/* expertise */}
                            {/* expertise */}
@@ -188,7 +181,7 @@ export default function Treatment(): JSX.Element {
                                 {treatment.expertise.map((item, idx) => (
                                     <div
                                     key={idx}
-                                    className="bg-[#553A31] text-white text-[14px] font-semibold leading-[25px] px-4 py-1 rounded-full"
+                                    className="bg-[#553A31] text-white text-[12px] lg:text-[14px] font-semibold leading-[25px] px-4 py-1 rounded-full"
                                     >
                                     {item}
                                     </div>

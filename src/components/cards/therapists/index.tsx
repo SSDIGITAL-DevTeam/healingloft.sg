@@ -30,8 +30,8 @@ function Therapists({therapistsRef}: {therapistsRef: RefObject<HTMLDivElement>})
                     Your wellness journey starts here
                 </a>
             </div>
-
-            <div className='container p-8'>
+            
+            <div className='container p-2 lg:p-8'>
                 <TherapistsCard />
             </div>
         </div>

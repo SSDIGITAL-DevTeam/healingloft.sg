@@ -67,7 +67,7 @@ export default function Treatment(): JSX.Element {
     aspectRatio?: 'square' | 'landscape';
   }) => {
     const aspectClass =
-      aspectRatio === 'square' ? 'aspect-square' : 'aspect-[16/9]';
+      aspectRatio === 'square' ? 'lg:aspect-square' : 'lg:aspect-[16/9]';
 
     return (
       <div className="group relative">
@@ -77,20 +77,20 @@ export default function Treatment(): JSX.Element {
         {/* Images */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          className={`h-full w-full rounded-3xl object-cover transition-opacity duration-300 group-hover:opacity-0 ${aspectClass}`}
+          className={`h-full w-full rounded-3xl object-cover transition-opacity duration-300 group-hover:opacity-0 aspect-square ${aspectClass}`}
           src={treatment.image.src}
           alt={treatment.title}
           aria-label={treatment.title}
         />
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          className={`absolute top-0 left-0 h-full w-full rounded-3xl object-cover transition-opacity duration-300 opacity-0 group-hover:opacity-100 ${aspectClass}`}
+          className={`absolute top-0 left-0 h-full w-full rounded-3xl object-cover transition-opacity duration-300 opacity-0 group-hover:opacity-100   aspect-square  ${aspectClass}`}
           src={treatment.imageHover.src}
           alt={treatment.title}
           aria-label={treatment.title}
         />
           {/* Black hover background */}
-        <div className="rounded-3xl absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-30"></div>
+        <div className="rounded-3xl absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-50"></div>
 
 
         {/* Text Content */}
@@ -102,7 +102,7 @@ export default function Treatment(): JSX.Element {
           <div className="relative h-full w-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             {/* bg hover */}
             
-            <p className="absolute inset-0 flex items-center justify-center text-center p-4 text-lg lg:text-xl">
+            <p className="absolute inset-0 flex items-center justify-center text-center p-4 text-sm lg:text-xl">
               {treatment.desc}
             </p>
           </div>
