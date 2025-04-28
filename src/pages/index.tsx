@@ -16,6 +16,8 @@ import ReviewCard from '@/components/cards/reviewcard'
 import AppLayout from '@/components/layout'
 import { NavContext } from '@/context/NavContext'
 import ValueCard from '@/components/cards/valuecard'
+// import  from './Therapists'
+import Therapists from '@/components/cards/therapists'
 
 export default function Home(): JSX.Element {
     // states
@@ -25,6 +27,7 @@ export default function Home(): JSX.Element {
     // refs
     const videoRef = useRef<HTMLDivElement | null>(null)
     const serviceRef = useRef<HTMLDivElement | null>(null)
+    const therapistsRef = useRef<HTMLDivElement | null>(null)
     const aboutRef = useRef<HTMLDivElement | null>(null)
     const contactRef = useRef<HTMLDivElement | null>(null)
 
@@ -39,35 +42,57 @@ export default function Home(): JSX.Element {
     const isVisible = entry?.isIntersecting
 
     // intersection observer navigation
+    // const serviceEntry = useIntersectionObserver(serviceRef, {
+    //     threshold: 0.3,
+    // })
     const serviceEntry = useIntersectionObserver(serviceRef, {
-        threshold: 0.3,
+        threshold: 0 ,
+        //threshold: 0.3,
     })
     const aboutEntry = useIntersectionObserver(aboutRef, {
-        rootMargin: '-150px',
+       // rootMargin: '-150px',
+       threshold: 0 ,
     })
-    const contactEntry = useIntersectionObserver(contactRef, { threshold: 0 })
+    const therapistEntry = useIntersectionObserver(therapistsRef, {
+        // rootMargin: '-150px',
+        threshold: 0 ,
+     })
+    
+    const contactEntry = useIntersectionObserver(contactRef, {
+        rootMargin: '-10px',
+        // threshold: 0 
+    })
 
     const isServiceEntry = serviceEntry?.isIntersecting
     const isAboutEntry = aboutEntry?.isIntersecting
     const isContactEntry = contactEntry?.isIntersecting
-
+    const isTherapistEntry = therapistEntry?.isIntersecting
     // useEffect
     useEffect(() => {
+        //setCurrentNav('#about')
         if (isVisible) setIsYoutubeShow(true)
 
         if (!isServiceEntry && !isAboutEntry && !isContactEntry) {
             setCurrentNav('#home')
         }
 
-        if (isServiceEntry && !isAboutEntry) {
+        if (isServiceEntry ) {
             setCurrentNav('#service')
         }
 
-        if (isAboutEntry && !isServiceEntry) {
+        if(isTherapistEntry){
+            setCurrentNav('#therapists')
+        }
+        // if (isAboutEntry && !isServiceEntry) {
+        if (isAboutEntry) {
+            
             setCurrentNav('#about')
         }
 
-        if (isContactEntry && !isAboutEntry) {
+        // if (isContactEntry && !isAboutEntry) {
+        //     setCurrentNav('#contact')
+        // }
+        if (isContactEntry ) {
             setCurrentNav('#contact')
         }
     }, [isVisible, isServiceEntry, isAboutEntry, isContactEntry])
@@ -76,6 +101,8 @@ export default function Home(): JSX.Element {
         <AppLayout>
             <main className='flex flex-col items-center justify-between'>
                 {/* banner */}
+
+             
                 <div id='home' className='container relative min-h-[75vh] px-8 pb-8 pt-24 lg:py-28'>
                     <Image
                         priority
@@ -233,7 +260,7 @@ export default function Home(): JSX.Element {
                         </div>
                     </div>
                 </div>
-
+                <Therapists therapistsRef={therapistsRef}></Therapists>
                 {/* about ref */}
                 <div className='w-full' ref={aboutRef}>
                     {/* about section */}

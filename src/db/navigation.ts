@@ -8,6 +8,10 @@ export const navMenu = [
 		url: '#service',
 	},
 	{
+		name: 'Our Therapists',
+		url: '#therapists',
+	},
+	{
 		name: 'About Us',
 		url: '#about',
 	},

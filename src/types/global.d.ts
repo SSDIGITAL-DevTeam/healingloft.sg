@@ -14,8 +14,26 @@ export type ValueType = {
 export type TreatmentType = {
 	image: StaticImageData
 	title: string
-	mandarin: string
+	mandarin: string|null
 	desc: string
+	
+}
+
+export type TreatmentNewType = {
+	image: StaticImageData
+	imageHover:StaticImageData
+	title: string
+	desc: string
+	
+	
+}
+export type TherapistsType = {
+	image: StaticImageData
+	
+	name: string
+	ethnicity: string
+	desc: string,
+	expertise:string[]
 }
 
 export type Review = {
@@ -23,3 +41,5 @@ export type Review = {
 	name: string
 	desc: string
 }
+
+

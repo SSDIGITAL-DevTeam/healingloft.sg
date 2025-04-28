@@ -60,12 +60,16 @@ export default function Navbar(): JSX.Element {
                         <li
                             key={index}
                             className={`${
-                                currentNav === navItem.url
+                                // "home"=== navItem.url
+                                    currentNav === navItem.url
                                     ? 'rounded-xl bg-white font-extrabold text-primary'
                                     : 'text-white'
                             } px-4 py-1.5 font-semibold`}
                         >
-                            <a href={navItem.url}>{navItem.name}</a>
+                            <a href={navItem.url}>
+                                {navItem.name}
+                               
+                            </a>
                         </li>
                     ))}
                     <li className='mt-8'>
