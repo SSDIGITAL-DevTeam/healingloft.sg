@@ -6,9 +6,10 @@
 	"scripts": {
 		"dev": "cross-env NODE_OPTIONS='--max-old-space-size=4096' next dev",
 		"build": "next build",
-		"build:prod": "rm -r .next && cross-env NODE_OPTIONS='--max-old-space-size=4096' next build",
-		"build:prod2": "rm -r .next && next build",
-		"start": "cross-env NODE_OPTIONS='--max-old-space-size=4096'  node server.js",
+		
+		"build:prod": "rm -r .next && next build",
+		"start": "next start",
+		"start-cpanel": "NODE_ENV=production node server.js",
 		"lint": "next lint"
 	},
 	"dependencies": {
