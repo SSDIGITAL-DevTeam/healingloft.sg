@@ -33,7 +33,7 @@ export type TherapistsType = {
 	name: string
 	ethnicity: string
 	desc: string,
-	expertise:string[]
+	expertise:string[]|null
 }
 
 export type Review = {

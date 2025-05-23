@@ -4,7 +4,7 @@
 	"private": true,
 	"homepage": "https://healingloft.sg",
 	"scripts": {
-		"dev": "cross-env NODE_OPTIONS='--max-old-space-size=4096' next dev",
+		"dev": " next dev",
 		"build": "next build",
 		
 		"build:prod": "rm -r .next && next build",

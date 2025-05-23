@@ -5,14 +5,13 @@ import { JSX } from 'react'
 import JasmineImage from '@/assets/therapists/Jasmine.webp'
 import LilaImage from '@/assets/therapists/lila.webp'
 import NicoleImage from '@/assets/therapists/Nicole.webp'
+import JulieImage from '@/assets/therapists/julie.webp'
 import JennyImage from '@/assets/therapists/Jenny.webp'
 import SandyImage from '@/assets/therapists/Sandy.webp'
 import AngelImage from '@/assets/therapists/Angel.webp'
 import kimiImage from '@/assets/therapists/kimi.webp'
 import DorisImage from '@/assets/therapists/Doris.webp'
 import ClaireImage from '@/assets/therapists/Claire.webp'
-
-
 
 export default function Treatment(): JSX.Element {
     const treatmentData = [
@@ -36,7 +35,7 @@ export default function Treatment(): JSX.Element {
             image: LilaImage,
             name: 'Lila',
             ethnicity: 'Chinese',
-            "desc": "I am friendly, good at communication, and can build a good relationship with customers. My technique is mainly rhythmic, supplemented by staying, shaking and local fascial release. I have rich massage experience and have been praised by customers. Welcome!",
+            "desc": "Hello, I am Julie from Hebei, China. Although I have only been engaged in massage for a short time, I am willing to continue to learn. I want to use massage skills to exchange beauty with you, help sub-healthy people in need, and use hands as a medium to convey health and warmth!",
             "expertise": [
                 "Ancient acupressure",
                 "THL",
@@ -46,20 +45,36 @@ export default function Treatment(): JSX.Element {
               ]
         },
         {
-            image: NicoleImage,
-            name: 'Nicole',
-            ethnicity: 'Thai',
-            "desc": "I am peaceful, casual, and love sports and nature. I have 13 years of massage experience. The massage techniques I provide release tension and stress in a safe and nourishing space, allowing you to deeply relax your body and mind.",
-            "expertise": [
-                "Ancient acupressure",
-                "THL",
-                "Thai yoga",
-                "Aromatherapy",
-                "Foot bath",
-                "Pregnancy massage",
-                "Facial care"
-              ]
+            image: JulieImage,
+            name: 'Julie',
+            ethnicity: 'Chinese',
+            "desc": "Hello, I am Julie from Hebei, China. Although I have only been engaged in massage for a short time, I am willing to continue to learn. I want to use massage skills to exchange beauty with you, help sub-healthy people in need, and use hands as a medium to convey health and warmth!",
+            expertise:null,
+            // "expertise": [
+            //     "Ancient acupressure",
+            //     "THL",
+            //     "Thai yoga",
+            //     "Aromatherapy",
+            //     "Foot bath",
+            //     "Pregnancy massage",
+            //     "Facial care"
+            //   ]
         },
+        // {
+        //     image: NicoleImage,
+        //     name: 'Nicole',
+        //     ethnicity: 'Thai',
+        //     "desc": "I am peaceful, casual, and love sports and nature. I have 13 years of massage experience. The massage techniques I provide release tension and stress in a safe and nourishing space, allowing you to deeply relax your body and mind.",
+        //     "expertise": [
+        //         "Ancient acupressure",
+        //         "THL",
+        //         "Thai yoga",
+        //         "Aromatherapy",
+        //         "Foot bath",
+        //         "Pregnancy massage",
+        //         "Facial care"
+        //       ]
+        // },
         {
             image: JennyImage,
             name: 'Jenny',
@@ -178,7 +193,7 @@ export default function Treatment(): JSX.Element {
                         {/* expertise */}
                            {/* expertise */}
                             <div className="flex flex-wrap gap-2 mt-4 ">
-                                {treatment.expertise.map((item, idx) => (
+                                {treatment.expertise && treatment.expertise.map((item, idx) => (
                                     <div
                                     key={idx}
                                     className="bg-[#553A31] text-white text-[12px] lg:text-[14px] font-semibold leading-[25px] px-4 py-1 rounded-full"
