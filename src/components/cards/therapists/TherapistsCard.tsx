@@ -88,7 +88,7 @@ export default function Treatment(): JSX.Element {
                 "Ancient acupressure",
                 "THL",
                 "Thai yoga",
-                "Spiritual aromatherapy",
+                "Aromatherapy",
                 "Foot bath",
                 "Ear cleaning",
                 "Facial care"
@@ -102,7 +102,7 @@ export default function Treatment(): JSX.Element {
             desc: "I am as quiet as a virgin and as fast as a rabbit. I am a professional and experienced masseur. I just want to convey my personal experience to more people through my hands.",
             expertise: [
                 "Ancient acupressure",
-                "Spiritual aromatherapy",
+                "Aromatherapy",
                 "Foot bath",
                 "Ear cleaning"
             ]
@@ -116,7 +116,7 @@ export default function Treatment(): JSX.Element {
                 "Ancient acupressure",
                 "THL",
                 "Thai yoga",
-                "Spiritual aromatherapy",
+                "Aromatherapy",
                 "Foot bath",
                 "Facial care",
                 "Pregnancy massage"
@@ -129,7 +129,7 @@ export default function Treatment(): JSX.Element {
             desc: "I am enthusiastic, polite, diligent, studious and sincere. I will listen carefully to customer feedback and suggestions to continuously improve my service and technical level.",
             expertise: [
                 "Ancient acupressure",
-                "Spiritual aromatherapy",
+                "Aromatherapy",
                 "Foot bath"
             ]
         },
@@ -142,7 +142,7 @@ export default function Treatment(): JSX.Element {
                 "Ancient acupressure",
                 "THL",
                 "Thai yoga",
-                "Spiritual aromatherapy",
+                "Aromatherapy",
                 "Foot bath",
                 "Ear cleaning"
             ]
@@ -156,7 +156,7 @@ export default function Treatment(): JSX.Element {
                 "Ancient acupressure",
                 "THL",
                 "Thai yoga",
-                "Spiritual aromatherapy",
+                "Aromatherapy",
                 "Foot bath",
                 "Facial care"
             ]
