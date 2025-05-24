@@ -49,7 +49,11 @@ export default function Treatment(): JSX.Element {
             name: 'Julie',
             ethnicity: 'Chinese',
             "desc": "Hello, I am Julie from Hebei, China. Although I have only been engaged in massage for a short time, I am willing to continue to learn. I want to use massage skills to exchange beauty with you, help sub-healthy people in need, and use hands as a medium to convey health and warmth!",
-            expertise:null,
+            expertise:[
+                "Ancient acupressure",
+                "Foot bath",
+                "Aromatherapy"
+            ],
             // "expertise": [
             //     "Ancient acupressure",
             //     "THL",
