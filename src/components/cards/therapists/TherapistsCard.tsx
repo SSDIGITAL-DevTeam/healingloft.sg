@@ -12,6 +12,7 @@ import AngelImage from '@/assets/therapists/Angel.webp'
 import kimiImage from '@/assets/therapists/kimi.webp'
 import DorisImage from '@/assets/therapists/Doris.webp'
 import ClaireImage from '@/assets/therapists/Claire.webp'
+import YoyoImage from '@/assets/therapists/Yoyo.webp'
 
 export default function Treatment(): JSX.Element {
     const treatmentData = [
@@ -54,15 +55,7 @@ export default function Treatment(): JSX.Element {
                 "Foot bath",
                 "Aromatherapy"
             ],
-            // "expertise": [
-            //     "Ancient acupressure",
-            //     "THL",
-            //     "Thai yoga",
-            //     "Aromatherapy",
-            //     "Foot bath",
-            //     "Pregnancy massage",
-            //     "Facial care"
-            //   ]
+
         },
         // {
         //     image: NicoleImage,
@@ -160,7 +153,20 @@ export default function Treatment(): JSX.Element {
                 "Foot bath",
                 "Facial care"
             ]
-        }         
+        },
+        {
+            image: YoyoImage,
+            name: 'Yoyo',
+            ethnicity: 'Vietnamese',
+            desc: "Hello! I’m Yoyo from Vietnam. I’ve been specializing in massage and therapeutic bodywork for 5 years. My techniques are skilled and well-balanced in pressure, effectively relieving everyday muscle tension and fatigue through professional methods. I look forward to your attention and appointment!",
+            expertise: [
+                "Traditional Acupressure",
+                "THL",
+                "Aromatherapy",
+                "Foot Spa"
+            ]
+        }
+           
        
     ]
 

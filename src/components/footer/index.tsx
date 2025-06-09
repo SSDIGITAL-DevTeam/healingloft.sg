@@ -25,7 +25,7 @@ export default function Footer(): JSX.Element {
                 <div className='flex flex-col items-center gap-y-6 p-8'>
                     <Image src={Logo} className='w-16' alt='logo' />
                     <p className='text-2xl font-semibold lg:mb-8 lg:text-4xl'>The Healing Loft</p>
-                    <ul className='flex w-max gap-x-4 font-medium lg:gap-x-16 lg:text-xl'>
+                    <ul className='flex flex-wrap  justify-center   max-w-full gap-x-4 font-medium lg:gap-x-16 lg:text-xl'>
                         {navMenu.map((navItem: NavMenu, index: number) => (
                             <li key={index}>
                                 <a aria-label={navItem.name} href={navItem.url}>
@@ -43,7 +43,7 @@ export default function Footer(): JSX.Element {
                                 target='_blank'
                             >
                                 <address className='lg:text-xl' style={{ fontStyle: 'normal' }}>
-                                    18 Maju Ave, Singapura 556693
+                                    18 Maju Ave, Singapore 556693
                                 </address>
                             </a>
                         </li>
