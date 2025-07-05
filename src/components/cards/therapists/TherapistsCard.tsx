@@ -4,14 +4,14 @@ import { JSX } from 'react'
 
 import JasmineImage from '@/assets/therapists/Jasmine.webp'
 import LilaImage from '@/assets/therapists/lila.webp'
-import NicoleImage from '@/assets/therapists/Nicole.webp'
+// import NicoleImage from '@/assets/therapists/Nicole.webp'
 import JulieImage from '@/assets/therapists/julie.webp'
 import JennyImage from '@/assets/therapists/Jenny.webp'
-import SandyImage from '@/assets/therapists/Sandy.webp'
+// import SandyImage from '@/assets/therapists/Sandy.webp'
 import AngelImage from '@/assets/therapists/Angel.webp'
 import kimiImage from '@/assets/therapists/kimi.webp'
 import DorisImage from '@/assets/therapists/Doris.webp'
-import ClaireImage from '@/assets/therapists/Claire.webp'
+// import ClaireImage from '@/assets/therapists/Claire.webp'
 import YoyoImage from '@/assets/therapists/Yoyo.webp'
 
 export default function Treatment(): JSX.Element {
@@ -43,14 +43,14 @@ export default function Treatment(): JSX.Element {
                 "Thai yoga",
                 "Aromatherapy",
                 "Foot bath"
-              ]
+            ]
         },
         {
             image: JulieImage,
             name: 'Julie',
             ethnicity: 'Chinese',
             "desc": "Hello, I am Julie from Hebei, China. Although I have only been engaged in massage for a short time, I am willing to continue to learn. I want to use massage skills to exchange beauty with you, help sub-healthy people in need, and use hands as a medium to convey health and warmth!",
-            expertise:[
+            expertise: [
                 "Ancient acupressure",
                 "Foot bath",
                 "Aromatherapy"
@@ -88,18 +88,18 @@ export default function Treatment(): JSX.Element {
             ]
         },
 
-        {
-            image: SandyImage,
-            name: 'Sandy',
-            ethnicity: 'Chinese',
-            desc: "I am as quiet as a virgin and as fast as a rabbit. I am a professional and experienced masseur. I just want to convey my personal experience to more people through my hands.",
-            expertise: [
-                "Ancient acupressure",
-                "Aromatherapy",
-                "Foot bath",
-                "Ear cleaning"
-            ]
-        },
+        // {
+        //     image: SandyImage,
+        //     name: 'Sandy',
+        //     ethnicity: 'Chinese',
+        //     desc: "I am as quiet as a virgin and as fast as a rabbit. I am a professional and experienced masseur. I just want to convey my personal experience to more people through my hands.",
+        //     expertise: [
+        //         "Ancient acupressure",
+        //         "Aromatherapy",
+        //         "Foot bath",
+        //         "Ear cleaning"
+        //     ]
+        // },
         {
             image: AngelImage,
             name: 'Angel',
@@ -115,17 +115,17 @@ export default function Treatment(): JSX.Element {
                 "Pregnancy massage"
             ]
         },
-        {
-            image: ClaireImage,
-            name: 'Claire',
-            ethnicity: 'Chinese',
-            desc: "I am enthusiastic, polite, diligent, studious and sincere. I will listen carefully to customer feedback and suggestions to continuously improve my service and technical level.",
-            expertise: [
-                "Ancient acupressure",
-                "Aromatherapy",
-                "Foot bath"
-            ]
-        },
+        // {
+        //     image: ClaireImage,
+        //     name: 'Claire',
+        //     ethnicity: 'Chinese',
+        //     desc: "I am enthusiastic, polite, diligent, studious and sincere. I will listen carefully to customer feedback and suggestions to continuously improve my service and technical level.",
+        //     expertise: [
+        //         "Ancient acupressure",
+        //         "Aromatherapy",
+        //         "Foot bath"
+        //     ]
+        // },
         {
             image: DorisImage,
             name: 'Doris',
@@ -166,8 +166,8 @@ export default function Treatment(): JSX.Element {
                 "Foot Spa"
             ]
         }
-           
-       
+
+
     ]
 
     return (
@@ -193,29 +193,29 @@ export default function Treatment(): JSX.Element {
                             <h3 className='text-[24px] font-normal'>{treatment.ethnicity}</h3>
 
                         </div>
-{/* hover content */}
-                    <div className="space-y-2 lg:space-y-6 absolute inset-0 flex flex-col   bg-white opacity-0 translate-y-[-20px] group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-1000 ease-in-out p-8  rounded-3xl">
+                        {/* hover content */}
+                        <div className="space-y-2 lg:space-y-6 absolute inset-0 flex flex-col   bg-white opacity-0 translate-y-[-20px] group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-1000 ease-in-out p-8  rounded-3xl">
                             <h2 className="text-[#553A31] font-bold text-[14px] lg:text-[24px]">
-                                {treatment.name + " (" + treatment.ethnicity+ ")" }
+                                {treatment.name + " (" + treatment.ethnicity + ")"}
                             </h2>
                             <p className="text-[#1A1A1A] text-[12px] lg:text-[16px]">{treatment.desc}</p>
-                        {/* expertise     */}
-                        {/* expertise */}
-                           {/* expertise */}
+                            {/* expertise     */}
+                            {/* expertise */}
+                            {/* expertise */}
                             <div className="flex flex-wrap gap-2 mt-4 ">
                                 {treatment.expertise && treatment.expertise.map((item, idx) => (
                                     <div
-                                    key={idx}
-                                    className="bg-[#553A31] text-white text-[12px] lg:text-[14px] font-semibold leading-[25px] px-4 py-1 rounded-full"
+                                        key={idx}
+                                        className="bg-[#553A31] text-white text-[12px] lg:text-[14px] font-semibold leading-[25px] px-4 py-1 rounded-full"
                                     >
-                                    {item}
+                                        {item}
                                     </div>
                                 ))}
                             </div>
-                    </div>
-                
+                        </div>
 
-                       
+
+
                     </div>
                 </div>
             ))}

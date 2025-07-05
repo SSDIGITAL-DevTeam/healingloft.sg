@@ -6,7 +6,6 @@
 	"scripts": {
 		"dev": " next dev",
 		"build": "next build",
-		
 		"build:prod": "rm -r .next && next build",
 		"start-local": "next start",
 		"start": "NODE_ENV=production node server.js",
@@ -22,7 +21,7 @@
 		"eslint": "8.45.0",
 		"eslint-config-next": "13.4.12",
 		"fslightbox-react": "^1.7.6",
-		"next": "13.4.12",
+		"next": "^13.5.11",
 		"postcss": "8.4.27",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
