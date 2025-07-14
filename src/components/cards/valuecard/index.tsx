@@ -37,7 +37,8 @@ export default function ValueCard(): JSX.Element {
                     className='flex flex-col items-center justify-center gap-y-4 rounded-2xl border bg-primary/10 p-8 text-center shadow duration-150 hover:-translate-y-4 hover:shadow'
                 >
                     <div className='flex aspect-video h-2/5 w-full flex-col items-center justify-end gap-y-2'>
-                        <Image
+                        {/* <Image */}
+                        <img
                             width={value.image.width}
                             height={value.image.height}
                             src={value.image.src}

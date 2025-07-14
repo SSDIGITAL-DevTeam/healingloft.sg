@@ -104,16 +104,18 @@ export default function Home(): JSX.Element {
 
              
                 <div id='home' className='container relative min-h-[75vh] px-8 pb-8 pt-24 lg:py-28'>
-                    <Image
-                        priority
-                        src={Banner}
+                    {/* <Image */}
+                    <img
+                        // priority
+                        src={Banner.src}
                         alt='desktop-banner'
                         className='hidden min-h-[75vh] w-full rounded-2xl object-cover lg:block'
                     />
 
-                    <Image
-                        priority
-                        src={BannerMobile}
+                    {/* <Image */}
+                    <img
+                        // priority
+                        src={BannerMobile.src}
                         alt='mobile-banner'
                         className='min-h-[75vh] w-full rounded-2xl object-cover lg:hidden'
                     />
@@ -282,9 +284,10 @@ export default function Home(): JSX.Element {
                                 </h3>
                             </div>
 
-                            <Image
+                            {/* <Image */}
+                            <img
                                 className='mt-4 object-contain object-right lg:h-[520px]'
-                                src={AboutImage}
+                                src={AboutImage.src}
                                 alt='image'
                             />
                         </div>
@@ -330,7 +333,8 @@ export default function Home(): JSX.Element {
                             <div className=''>
                                 {isLoading && (
                                     <div className='flex w-full justify-center'>
-                                        <Image src={Loader} alt='loading...' />
+                                        {/* <Image src
+                                        <img={Loader} alt='loading...' /> */}
                                     </div>
                                 )}
                                 <iframe
@@ -410,22 +414,25 @@ export default function Home(): JSX.Element {
 
                     {/* background */}
                     <div className=''>
-                        <Image
+                        {/* <Image */}
+                        {/* <Image */}
+                        <img
                             className='absolute -left-40 -top-44 w-80 lg:left-40 lg:top-80 lg:w-96 lg:scale-150 2xl:left-80 2xl:top-96'
-                            src={ThreeLeavesBg}
+                            src={ThreeLeavesBg.src}
                             alt='three-leaves-image'
                         />
 
-                        <Image
+                        <img
                             className='absolute -bottom-40 -right-32 w-96 scale-150 lg:-right-44 lg:scale-125'
-                            src={ThreeLeavesBg}
+                            src={ThreeLeavesBg.src}
                             alt='three-leaves-image'
                         />
                     </div>
 
                     <div className='container flex w-full flex-col gap-x-8 gap-y-28 lg:flex-row lg:p-8'>
                         <div className='flex w-full flex-col items-center justify-center gap-y-6 text-center lg:gap-y-2'>
-                            <Image className='w-24' src={ThreeLeaves} alt='three-leaves-image' />
+                            {/* <Image cla
+                            <imgssName='w-24' src={ThreeLeaves} alt='three-leaves-image' /> */}
 
                             <h2 className='mb-12 text-4xl font-semibold text-primary lg:text-7xl'>CALL US NOW</h2>
 

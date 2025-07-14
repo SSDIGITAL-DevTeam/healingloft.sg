@@ -7,7 +7,7 @@
 		"dev": " next dev",
 		"build": "next build",
 		"build:prod": "rm -r .next && next build",
-		"start-local": "next start",
+		"start-local": "next start --port 3001",
 		"start": "NODE_ENV=production node server.js",
 		"lint": "next lint"
 	},

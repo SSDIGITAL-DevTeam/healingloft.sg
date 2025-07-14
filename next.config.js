@@ -4,6 +4,14 @@ const nextConfig = {
 		locales: ['en'],
 		defaultLocale: 'en',
 	},
+	images: {
+		remotePatterns: [
+			{
+				protocol: 'https',
+				hostname: 'healingloft.sg',
+			},
+		],
+	},
 }
 
 module.exports = nextConfig

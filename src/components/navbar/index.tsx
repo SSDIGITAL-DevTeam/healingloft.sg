@@ -37,7 +37,8 @@ export default function Navbar(): JSX.Element {
             {/* mobile nav */}
             <div className='flex h-full items-center justify-between bg-white p-8 lg:hidden'>
                 <a href='/'>
-                    <Image src={Logo} width={36} alt='logo' />
+                    {/* <Image src={Logo} width={36} alt='logo' /> */}
+                    <img src={Logo.src} width={36} alt='logo' />
                 </a>
 
                 {/* open menu */}
@@ -88,7 +89,8 @@ export default function Navbar(): JSX.Element {
             <div className='container px-8 py-4'>
                 <div className='hidden items-center justify-between lg:flex'>
                     <a href='/'>
-                        <Image src={Logo} width={64} alt='logo' />
+                        {/* <Image src={Logo} width={64} alt='logo' /> */}
+                        <img src={Logo.src} width={64} alt='logo' />
                     </a>
                     <ul className='flex items-center gap-x-8 text-xl'>
                         {navMenu.map((navItem: NavMenu, index: number) => (

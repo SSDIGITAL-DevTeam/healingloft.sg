@@ -23,7 +23,8 @@ export default function Footer(): JSX.Element {
         <footer className='bg-footer text-primary'>
             <div className='container p-4'>
                 <div className='flex flex-col items-center gap-y-6 p-8'>
-                    <Image src={Logo} className='w-16' alt='logo' />
+                    {/* <Image src={Logo} className='w-16' alt='logo' /> */}
+                    <img src={Logo.src} className='w-16' alt='logo' />
                     <p className='text-2xl font-semibold lg:mb-8 lg:text-4xl'>The Healing Loft</p>
                     <ul className='flex flex-wrap  justify-center   max-w-full gap-x-4 font-medium lg:gap-x-16 lg:text-xl'>
                         {navMenu.map((navItem: NavMenu, index: number) => (
@@ -83,7 +84,8 @@ export default function Footer(): JSX.Element {
                     } fixed bottom-6 right-4 rounded-full bg-[#25d366] px-3 py-2.5 text-white shadow-lg duration-200 hover:scale-105 hover:bg-[#075e54] hover:text-white lg:right-6 lg:p-4 lg:py-2`}
                 >
                     <div className='flex items-center gap-x-2 font-semibold'>
-                        <Image src={WhatsappSvg} width={28} height={28} alt='WhatsApp' />
+                        {/* <Image src={WhatsappSvg} width={28} height={28} alt='WhatsApp' /> */}
+                        <img src={WhatsappSvg.src} width={28} height={28} alt='WhatsApp' />
                         <span className='hidden lg:inline'>Book Via WhatsApp</span>
                     </div>
                 </a>
