@@ -36,7 +36,7 @@ export default function Treatment(): JSX.Element {
             image: LilaImage,
             name: 'Lila',
             ethnicity: 'Chinese',
-            "desc": "Hello, I am Julie from Hebei, China. Although I have only been engaged in massage for a short time, I am willing to continue to learn. I want to use massage skills to exchange beauty with you, help sub-healthy people in need, and use hands as a medium to convey health and warmth!",
+            "desc": "I’m Lila, warm, friendly, and great at communication. I easily build strong rapport with clients. My massage style focuses on rhythmic flow, combined with pauses, gentle shaking, and targeted fascia release. I have extensive experience and have received praise from many customers. I look forward to welcoming you.",
             "expertise": [
                 "Ancient acupressure",
                 "THL",
@@ -53,7 +53,8 @@ export default function Treatment(): JSX.Element {
             expertise: [
                 "Ancient acupressure",
                 "Foot bath",
-                "Aromatherapy"
+                "Aromatherapy",
+                "Signature THL Therapy"
             ],
 
         },
