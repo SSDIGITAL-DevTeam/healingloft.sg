@@ -196,11 +196,11 @@ export default function Home(): JSX.Element {
                             <div className='container flex flex-col gap-y-8 px-8 pb-8 md:flex-row md:gap-x-16 xl:gap-x-16 xl:px-32 2xl:gap-x-32 2xl:px-44 2xl:py-16'>
                                 {/* offer card */}
                                 <div className='w-full 2xl:scale-110'>
-                                    <div className='w-full rounded-t-2xl bg-gradient-to-t from-[#CB9E00] via-[#FDD23A] to-[#CB9E00] p-8 text-black'>
+                                    <div className='w-full rounded-t-2xl bg-[#4c2317]  text-white  p-8 '>
                                         <h3 className='mb-8 text-sm font-semibold lg:text-xl'>SPECIAL OFFER ON</h3>
 
                                         <h3 className='text-2xl font-semibold lg:text-4xl'>
-                                            Aromatherapy <br /> 心靈香薰
+                                            Aromatic Healing Therapy <br /> 心灵香薰
                                         </h3>
                                     </div>
 
@@ -219,7 +219,7 @@ export default function Home(): JSX.Element {
                                                 href='https://api.whatsapp.com/send/?phone=6591444649&text=Hi%2C+I+would+like+to+make+a+reservation+for+Aromatherapy.+Name+%3A+Email+%3A+Date+%3A+Time+%3A&type=phone_number&app_absent=0'
                                                 target='_blank'
                                                 rel='noopener noreferrer'
-                                                className='c-button-primary bg-gradient-to-t from-[#CB9E00] via-[#FDD23A] to-[#CB9E00] px-8 py-4 text-xl text-primary lg:px-28'
+                                                className='c-button-primary bg-[#4c2317]  text-white px-8 py-4 text-xl text-primary lg:px-28'
                                             >
                                                 Book Now
                                             </a>
@@ -229,16 +229,29 @@ export default function Home(): JSX.Element {
 
                                 {/* offer card */}
                                 <div className='w-full 2xl:scale-110'>
-                                    <div className='w-full rounded-t-2xl bg-gradient-to-t from-[#CB9E00] via-[#FDD23A] to-[#CB9E00] p-8 text-black'>
+                                    {/* <div className='w-full rounded-t-2xl bg-gradient-to-t from-[#CB9E00] via-[#FDD23A] to-[#CB9E00] p-8 text-black'>
                                         <h3 className='mb-8 text-sm font-semibold lg:text-xl'>SPECIAL OFFER ON</h3>
 
                                         <h3 className='text-2xl font-semibold lg:text-4xl'>
                                             Ancient Acupressure
-                                            <br /> 古法指壓
+                                            <br /> 古法指压
+                                        </h3>
+                                    </div> */}
+
+
+                                    <div className='w-full rounded-t-2xl bg-[#4c2317]   text-white   p-8 '>
+                                        <h3 className='mb-8 text-sm font-semibold lg:text-xl'>SPECIAL OFFER ON</h3>
+
+                                        <h3 className='text-2xl font-semibold lg:text-4xl '>
+                                            Ancient Acupressure
+                                            <br /> 古法指压
                                         </h3>
                                     </div>
 
-                                    <div className='2xl:px-26 rounded-b-2xl bg-white px-12 py-16'>
+                                    <div className='relative 2xl:px-26 rounded-b-2xl bg-white px-12 py-16'>
+                                        <div className='absolute top-7 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#ffeee7] px-6 py-2 rounded-full text-black text-sm font-medium '>
+                                            Exclusive for first-time customers
+                                        </div>
                                         <div className='text-center'>
                                             <span className='text-7xl font-bold lg:text-8xl'>$49</span>
 
@@ -246,12 +259,22 @@ export default function Home(): JSX.Element {
                                         </div>
 
                                         <div className='mb-2 mt-14 w-full text-center'>
-                                            <a
+                                            {/* <a
                                                 id='whatsapp-cta-2'
                                                 href='https://api.whatsapp.com/send/?phone=6591444649&text=Hi%2C+I+would+like+to+make+a+reservation+for+Ancient+Acupressure.+Name+%3A+Email+%3A+Date+%3A+Time+%3A&type=phone_number&app_absent=0'
                                                 target='_blank'
                                                 rel='noopener noreferrer'
                                                 className='c-button-primary bg-gradient-to-t from-[#CB9E00] via-[#FDD23A] to-[#CB9E00] px-8 py-4 text-xl text-primary lg:px-28'
+                                            >
+                                                Book Now
+                                            </a> */}
+
+                                            <a
+                                                id='whatsapp-cta-2'
+                                                href='https://api.whatsapp.com/send/?phone=6591444649&text=Hi%2C+I+would+like+to+make+a+reservation+for+Ancient+Acupressure.+Name+%3A+Email+%3A+Date+%3A+Time+%3A&type=phone_number&app_absent=0'
+                                                target='_blank'
+                                                rel='noopener noreferrer'
+                                                className='c-button-primary bg-gradient-to-t   bg-[#4c2317]  text-white  px-8 py-4 text-xl text-primary lg:px-28'
                                             >
                                                 Book Now
                                             </a>
