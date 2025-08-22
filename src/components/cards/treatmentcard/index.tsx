@@ -27,7 +27,7 @@ export default function Treatment(): JSX.Element {
     {
       image: AromatherapyImage,
       imageHover: AromatherapyHoverImage,
-      title: 'Aromatherapy',
+      title: 'Aromatic Healing Therapy',
       desc: 'Based on the ancient acupressure technique, the essential oils extracted from aromatic plants are used as a medium to massage and fumigate the muscles and lymph with powerful and painless techniques. The essential oils enter the body through breathing and skin, relieving emotional stress, improving sleep, and enhancing physical health. It is a natural therapy that heals the body, mind, and spirit.',
     },
     {
@@ -55,7 +55,7 @@ export default function Treatment(): JSX.Element {
       image: FourHandsMassageTherapyImage,
       imageHover: FourHandsMassageTherapyHoverImage,
       title: '4 Hands Massage Therapy',
-      desc: "Two professional therapists work together to relax and rejuvenate your body. Luxurious aromatherapy oils combined with the masseur's harmonious and synchronized soothing massage techniques will allow you to experience the touch of heaven!",
+      desc: "Two professional therapists work together to relax and rejuvenate your body. Luxurious Aromatic Healing Therapy oils combined with the masseur's harmonious and synchronized soothing massage techniques will allow you to experience the touch of heaven!",
     },
   ];
 

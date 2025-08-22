@@ -77,7 +77,7 @@ export default function Navbar(): JSX.Element {
                         <a
                             href='#contact'
                             type='button'
-                            className='c-button-primary rounded-2xl bg-gradient-to-t from-[#CB9E00] via-[#FDD23A] to-[#CB9E00] px-8 py-4 text-primary'
+                            className='c-button-primary rounded-2xl  bg-[#F6D5AA] text-[#4B2317] px-8 py-4 text-primary'
                         >
                             Book Now
                         </a>
@@ -97,11 +97,13 @@ export default function Navbar(): JSX.Element {
                             <li
                                 className={`${
                                     currentNav === navItem.url
-                                        ? 'border-b border-tertiary px-2 py-1 font-bold text-tertiary'
+                                        // ? 'border-b border-tertiary border-[#4c2317] px-2 py-1 font-bold text-tertiary  text-[#4c2317] '
+                                         ? 'border-b border-[#4c2317] px-2 py-1 font-bold  text-[#4c2317] '
                                         : ''
                                 } px-2 py-1`}
                                 key={index}
                             >
+                                
                                 <a href={navItem.url}>{navItem.name}</a>
                             </li>
                         ))}
@@ -109,7 +111,7 @@ export default function Navbar(): JSX.Element {
                             <a
                                 href='#contact'
                                 type='button'
-                                className='c-button-primary rounded-2xl bg-gradient-to-t from-[#CB9E00] via-[#FDD23A] to-[#CB9E00] px-8 py-2.5 text-primary'
+                                className='c-button-primary rounded-2xl  bg-[#F6D5AA] text-[#4B2317]  px-8 py-2.5 text-primary'
                             >
                                 Book Now
                             </a>

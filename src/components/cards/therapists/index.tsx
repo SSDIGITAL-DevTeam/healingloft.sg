@@ -25,7 +25,7 @@ function Therapists({therapistsRef}: {therapistsRef: RefObject<HTMLDivElement>})
                 <a
                     href='#contact'
                     type='button'
-                    className='c-button-primary bg-gradient-to-t from-[#CB9E00] via-[#FDD23A] to-[#CB9E00] px-12 text-xl text-primary'
+                    className='c-button-primary  bg-[#F6D5AA] text-[#4B2317]  px-12 text-xl '
                 >
                     Your wellness journey starts here
                 </a>

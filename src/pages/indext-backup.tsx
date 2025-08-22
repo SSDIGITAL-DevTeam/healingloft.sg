@@ -162,7 +162,7 @@ export default function Home(): JSX.Element {
                             <a
                                 href='#contact'
                                 type='button'
-                                className='c-button-primary   bg-[#F6D5AA] text-[#4B2317]   px-12 text-xl '
+                                className='c-button-primary   bg-[#4c2317] px-12 text-xl text-white'
                             >
                                 Book Now
                             </a>
@@ -192,72 +192,96 @@ export default function Home(): JSX.Element {
                                     expert therapists
                                 </h3>
                             </div>
+
                             <div className='container flex flex-col gap-y-8 px-8 pb-8 md:flex-row md:gap-x-16 xl:gap-x-16 xl:px-32 2xl:gap-x-32 2xl:px-44 2xl:py-16'>
-                                {/* offer card Aromatic Healing Therapy */}
+                                {/* offer card */}
                                 <div className='w-full 2xl:scale-110'>
-                                    <div className='w-full rounded-t-2xl bg-[#F6D5AA] text-[#4B2317] p-8 h-44 lg:h-48 flex flex-col justify-center items-center text-center'>
-                                    <h3 className='mb-3 text-sm font-semibold lg:text-xl'>SPECIAL OFFER ON</h3>
-                                    <h3 className='text-2xl font-semibold lg:text-4xl leading-snug'>
-                                        Aromatic Healing Therapy <br /> 心灵香薰
-                                    </h3>
+                                    <div className='w-full rounded-t-2xl bg-[#4c2317]  text-white  p-8 '>
+                                        <h3 className='mb-8 text-sm font-semibold lg:text-xl'>SPECIAL OFFER ON</h3>
+
+                                        <h3 className='text-2xl font-semibold lg:text-4xl'>
+                                            Aromatic Healing Therapy <br /> 心灵香薰
+                                        </h3>
                                     </div>
 
                                     <div className='2xl:px-26 rounded-b-2xl bg-white px-12 py-16'>
-                                    <div className='text-center'>
-                                        <span className='text-7xl font-bold lg:text-8xl'>$15</span>
-                                        <span className='text-4xl font-semibold'>&nbsp;OFF</span>
-                                        <p className='mt-1.5 text-2xl font-medium lg:text-3xl'>(9am - 4pm)</p>
-                                    </div>
+                                        <div className='text-center'>
+                                            <span className='text-7xl font-bold lg:text-8xl'>$15</span>
 
-                                    <div className='mb-2 mt-14 w-full text-center'>
-                                        <a
-                                        id='whatsapp-cta-1'
-                                        href="https://api.whatsapp.com/send/?phone=6591444649&text=Hi%2C+I+would+like+to+make+a+reservation+for+Aromatic+Healing+Therapy.+Name+%3A+Email+%3A+Date+%3A+Time+%3A&type=phone_number&app_absent=0"
-                                        // href='https://api.whatsapp.com/send/?phone=6591444649&text=Hi%2C+I+would+like+to+make+a+reservation+for+Aromatherapy.+Name+%3A+Email+%3A+Date+%3A+Time+%3A&type=phone_number&app_absent=0'
-                                        target='_blank'
-                                        rel='noopener noreferrer'
-                                        className='c-button-primary bg-[#F6D5AA] text-[#4B2317] px-8 py-4 text-xl text-primary lg:px-28'
-                                        >
-                                        Book Now
-                                        </a>
-                                    </div>
+                                            <span className='text-4xl font-semibold'>&nbsp;OFF</span>
+
+                                            <p className='mt-1.5 text-2xl font-medium lg:text-3xl'>(9am - 4pm)</p>
+                                        </div>
+
+                                        <div className='mb-2 mt-14 w-full text-center'>
+                                            <a
+                                                id='whatsapp-cta-2'
+                                                href='https://api.whatsapp.com/send/?phone=6591444649&text=Hi%2C+I+would+like+to+make+a+reservation+for+Aromatherapy.+Name+%3A+Email+%3A+Date+%3A+Time+%3A&type=phone_number&app_absent=0'
+                                                target='_blank'
+                                                rel='noopener noreferrer'
+                                                className='c-button-primary bg-[#4c2317] text-white px-8 py-4 text-xl text-primary lg:px-28'
+                                            >
+                                                Book Now
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
 
-                                {/* offer card Ancient Acupressure */}
+                                {/* offer card */}
                                 <div className='w-full 2xl:scale-110'>
-                                    <div className='w-full rounded-t-2xl bg-[#F6D5AA] text-[#4B2317]  p-8 h-44 lg:h-48 flex flex-col justify-center items-center text-center'>
-                                    <h3 className='mb-3 text-sm font-semibold lg:text-xl'>SPECIAL OFFER ON</h3>
-                                    <h3 className='text-2xl font-semibold lg:text-4xl leading-snug'>
-                                        Ancient Acupressure <br /> 古法指压
-                                    </h3>
+                                    {/* <div className='w-full rounded-t-2xl bg-gradient-to-t from-[#CB9E00] via-[#FDD23A] to-[#CB9E00] p-8 text-black'>
+                                        <h3 className='mb-8 text-sm font-semibold lg:text-xl'>SPECIAL OFFER ON</h3>
+
+                                        <h3 className='text-2xl font-semibold lg:text-4xl'>
+                                            Ancient Acupressure
+                                            <br /> 古法指压
+                                        </h3>
+                                    </div> */}
+
+
+                                    <div className='w-full rounded-t-2xl bg-[#4c2317]   text-white   p-8 '>
+                                        <h3 className='mb-8 text-sm font-semibold lg:text-xl'>SPECIAL OFFER ON</h3>
+
+                                        <h3 className='text-2xl font-semibold lg:text-4xl '>
+                                            Ancient Acupressure
+                                            <br /> 古法指压
+                                        </h3>
                                     </div>
 
                                     <div className='relative 2xl:px-26 rounded-b-2xl bg-white px-12 py-16'>
-                                        <div className='absolute top-2 left-1/2 -translate-x-1/2 border border-[#4B2317] text-[#4B2317] px-6 py-2 rounded-full text-sm font-medium text-center whitespace-nowrap'>
+                                        <div className='absolute top-7 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#ffeee7] px-6 py-2 rounded-full text-black text-sm font-medium '>
                                             Exclusive for first-time customers
                                         </div>
                                         <div className='text-center'>
                                             <span className='text-7xl font-bold lg:text-8xl'>$49</span>
+
                                             <p className='mt-1.5 text-2xl font-medium lg:text-3xl'>for 1 hour</p>
                                         </div>
 
-                                    <div className='mb-2 mt-14 w-full text-center'>
-                                        <a
-                                        id='whatsapp-cta-2'
-                                        href='https://api.whatsapp.com/send/?phone=6591444649&text=Hi%2C+I+would+like+to+make+a+reservation+for+Ancient+Acupressure.+Name+%3A+Email+%3A+Date+%3A+Time+%3A&type=phone_number&app_absent=0'
-                                        target='_blank'
-                                        rel='noopener noreferrer'
-                                        className='c-button-primary bg-[#F6D5AA] text-[#4B2317] px-8 py-4 text-xl text-primary lg:px-28'
-                                        >
-                                        Book Now
-                                        </a>
-                                    </div>
+                                        <div className='mb-2 mt-14 w-full text-center'>
+                                            {/* <a
+                                                id='whatsapp-cta-2'
+                                                href='https://api.whatsapp.com/send/?phone=6591444649&text=Hi%2C+I+would+like+to+make+a+reservation+for+Ancient+Acupressure.+Name+%3A+Email+%3A+Date+%3A+Time+%3A&type=phone_number&app_absent=0'
+                                                target='_blank'
+                                                rel='noopener noreferrer'
+                                                className='c-button-primary bg-gradient-to-t from-[#CB9E00] via-[#FDD23A] to-[#CB9E00] px-8 py-4 text-xl text-primary lg:px-28'
+                                            >
+                                                Book Now
+                                            </a> */}
+
+                                            <a
+                                                id='whatsapp-cta-2'
+                                                href='https://api.whatsapp.com/send/?phone=6591444649&text=Hi%2C+I+would+like+to+make+a+reservation+for+Ancient+Acupressure.+Name+%3A+Email+%3A+Date+%3A+Time+%3A&type=phone_number&app_absent=0'
+                                                target='_blank'
+                                                rel='noopener noreferrer'
+                                                className='c-button-primary bg-gradient-to-t   bg-[#4c2317]  text-white  px-8 py-4 text-xl text-primary lg:px-28'
+                                            >
+                                                Book Now
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                                </div>
-
-
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -278,7 +302,7 @@ export default function Home(): JSX.Element {
                                     The Healing Loft is in the heartland of Serangoon Garden, Singapore. We provide a
                                     safe and clean environment, good massages, at reasonable prices to make our customer
                                     satisfied. We also committed to make our Customer&apos;s wellness to be our top
-                                    priority by providing various services such as Aromatic Healing Therapy, Ancient Acupressure
+                                    priority by providing various services such as Aromatherapy, Ancient Acupressure
                                     Treatment, and Signature THL Treatment with our expert therapists
                                 </h3>
                             </div>
@@ -312,7 +336,7 @@ export default function Home(): JSX.Element {
                                     <a
                                         href='#contact'
                                         type='button'
-                                        className='c-button-primary bg-[#F6D5AA] text-[#4B2317] px-8 py-4 text-lg '
+                                        className='c-button-primary bg-[#4c2317] px-8 py-4 text-lg text-white'
                                     >
                                         Start My Enjoyment
                                     </a>
@@ -395,7 +419,7 @@ export default function Home(): JSX.Element {
                                     href='https://www.google.com/search?q=the+healing+loft&oq=the+hea&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGEAyBggCEEUYOTIGCAMQRRg7MgoIBBAuGLEDGIAEMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEIMTA1NWowajSoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x31da16ff00000001:0xea1d62f334036a92,1,,,,'
                                     target='_blank'
                                     type='button'
-                                    className='c-button-primary bg-[#F6D5AA] text-[#4B2317] px-8 py-4 text-lg font-extrabold '
+                                    className='c-button-primary bg-[#4c2317]  px-8 py-4 text-lg font-extrabold text-white'
                                 >
                                     See All Reviews
                                 </a>
@@ -441,7 +465,7 @@ export default function Home(): JSX.Element {
                                 aria-label='The Healing Loft'
                                 href='tel:+6591444649'
                                 target='_blank'
-                                className='c-button-primary relative z-10 bg-[#F6D5AA] text-[#4B2317]  text-xl '
+                                className='c-button-primary relative z-10 bg-[#4c2317] text-xl text-white'
                             >
                                 +65 9144 4649
                             </a>

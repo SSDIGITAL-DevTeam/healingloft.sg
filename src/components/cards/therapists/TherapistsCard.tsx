@@ -25,7 +25,7 @@ export default function Treatment(): JSX.Element {
                 "Ancient acupressure",
                 "THL",
                 "Thai yoga",
-                "Aromatherapy",
+                "Aromatic Healing Therapy",
                 "Local physiotherapy",
                 "Foot bath",
                 "Pedicure",
@@ -41,7 +41,7 @@ export default function Treatment(): JSX.Element {
                 "Ancient acupressure",
                 "THL",
                 "Thai yoga",
-                "Aromatherapy",
+                "Aromatic Healing Therapy",
                 "Foot bath"
             ]
         },
@@ -53,26 +53,12 @@ export default function Treatment(): JSX.Element {
             expertise: [
                 "Ancient acupressure",
                 "Foot bath",
-                "Aromatherapy",
+                "Aromatic Healing Therapy",
                 "Signature THL Therapy"
             ],
 
         },
-        // {
-        //     image: NicoleImage,
-        //     name: 'Nicole',
-        //     ethnicity: 'Thai',
-        //     "desc": "I am peaceful, casual, and love sports and nature. I have 13 years of massage experience. The massage techniques I provide release tension and stress in a safe and nourishing space, allowing you to deeply relax your body and mind.",
-        //     "expertise": [
-        //         "Ancient acupressure",
-        //         "THL",
-        //         "Thai yoga",
-        //         "Aromatherapy",
-        //         "Foot bath",
-        //         "Pregnancy massage",
-        //         "Facial care"
-        //       ]
-        // },
+   
         {
             image: JennyImage,
             name: 'Jenny',
@@ -82,25 +68,14 @@ export default function Treatment(): JSX.Element {
                 "Ancient acupressure",
                 "THL",
                 "Thai yoga",
-                "Aromatherapy",
+                "Aromatic Healing Therapy",
                 "Foot bath",
                 "Ear cleaning",
                 "Facial care"
             ]
         },
 
-        // {
-        //     image: SandyImage,
-        //     name: 'Sandy',
-        //     ethnicity: 'Chinese',
-        //     desc: "I am as quiet as a virgin and as fast as a rabbit. I am a professional and experienced masseur. I just want to convey my personal experience to more people through my hands.",
-        //     expertise: [
-        //         "Ancient acupressure",
-        //         "Aromatherapy",
-        //         "Foot bath",
-        //         "Ear cleaning"
-        //     ]
-        // },
+ 
         {
             image: AngelImage,
             name: 'Angel',
@@ -110,23 +85,13 @@ export default function Treatment(): JSX.Element {
                 "Ancient acupressure",
                 "THL",
                 "Thai yoga",
-                "Aromatherapy",
+                "Aromatic Healing Therapy",
                 "Foot bath",
                 "Facial care",
                 "Pregnancy massage"
             ]
         },
-        // {
-        //     image: ClaireImage,
-        //     name: 'Claire',
-        //     ethnicity: 'Chinese',
-        //     desc: "I am enthusiastic, polite, diligent, studious and sincere. I will listen carefully to customer feedback and suggestions to continuously improve my service and technical level.",
-        //     expertise: [
-        //         "Ancient acupressure",
-        //         "Aromatherapy",
-        //         "Foot bath"
-        //     ]
-        // },
+    
         {
             image: DorisImage,
             name: 'Doris',
@@ -136,7 +101,7 @@ export default function Treatment(): JSX.Element {
                 "Ancient acupressure",
                 "THL",
                 "Thai yoga",
-                "Aromatherapy",
+                "Aromatic Healing Therapy",
                 "Foot bath",
                 "Ear cleaning"
             ]
@@ -150,7 +115,7 @@ export default function Treatment(): JSX.Element {
                 "Ancient acupressure",
                 "THL",
                 "Thai yoga",
-                "Aromatherapy",
+                "Aromatic Healing Therapy",
                 "Foot bath",
                 "Facial care"
             ]
@@ -163,7 +128,7 @@ export default function Treatment(): JSX.Element {
             expertise: [
                 "Traditional Acupressure",
                 "THL",
-                "Aromatherapy",
+                "Aromatic Healing Therapy",
                 "Foot Spa"
             ]
         }
