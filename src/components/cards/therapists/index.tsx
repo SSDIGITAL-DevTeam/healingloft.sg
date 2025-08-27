@@ -9,7 +9,7 @@ function Therapists({therapistsRef}: {therapistsRef: RefObject<HTMLDivElement>})
             {/* Konten di sini */}
 
             <div className='flex flex-col items-center text-center'>
-                <h3 className='mb-4 italic text-tertiary lg:text-xl'>
+                <h3 className='mb-4 italic text-[#4B2317] lg:text-xl'>
                     – Meet Our Healing Hands
                 </h3>
 
@@ -25,7 +25,7 @@ function Therapists({therapistsRef}: {therapistsRef: RefObject<HTMLDivElement>})
                 <a
                     href='#contact'
                     type='button'
-                    className='c-button-primary  bg-[#F6D5AA] text-[#4B2317]  px-12 text-xl '
+                    className='c-button-primary  bg-[#4B2317]  text-white   px-12 text-xl '
                 >
                     Your wellness journey starts here
                 </a>

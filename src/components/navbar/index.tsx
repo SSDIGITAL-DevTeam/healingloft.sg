@@ -111,7 +111,7 @@ export default function Navbar(): JSX.Element {
                             <a
                                 href='#contact'
                                 type='button'
-                                className='c-button-primary rounded-2xl  bg-[#F6D5AA] text-[#4B2317]  px-8 py-2.5 text-primary'
+                                className='c-button-primary rounded-2xl   bg-[#4B2317]  text-white   px-8 py-2.5 text-primary'
                             >
                                 Book Now
                             </a>

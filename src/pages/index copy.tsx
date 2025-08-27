@@ -132,18 +132,10 @@ export default function Home(): JSX.Element {
                         <a
                             href='#contact'
                             type='button'
-                            className='c-button-primary mt-8 rounded-2xl bg-[#fdece5]  text-[#4B2317] px-6 py-4 text-xl font-bold '
+                            className='c-button-primary mt-8 rounded-2xl bg-white px-6 py-4 text-xl font-bold text-primary'
                         >
                             Rejuvenate Me
                         </a>
-
-                        {/* <a
-                            href='#contact'
-                            type='button'
-                            className='c-button-primary mt-8 rounded-2xl  bg-white px-6 py-4 text-xl font-bold text-primary'
-                        >
-                            Rejuvenate Me
-                        </a> */}
                     </div>
                 </div>
 
@@ -154,7 +146,7 @@ export default function Home(): JSX.Element {
                         <div className='absolute -top-4 xl:-top-8 2xl:-top-24' id='service'></div>
 
                         <div className='flex flex-col items-center text-center'>
-                            <h3 className='mb-4 italic lg:text-xl text-primary'>
+                            <h3 className='mb-4 italic text-tertiary lg:text-xl'>
                                 – Experience the luxurious treatments
                             </h3>
 
@@ -170,7 +162,7 @@ export default function Home(): JSX.Element {
                             <a
                                 href='#contact'
                                 type='button'
-                                className='c-button-primary   bg-[#4B2317]  text-white  px-12 text-xl '
+                                className='c-button-primary   bg-[#F6D5AA] text-[#4B2317]   px-12 text-xl '
                             >
                                 Book Now
                             </a>
@@ -183,10 +175,10 @@ export default function Home(): JSX.Element {
                     </div>
 
                     {/* offer section */}
-                    <div className='w-full bg-[#4B2317]'>
+                    <div className='w-full bg-[url("/images/offer-section-bg.webp")]'>
                         <div className='flex flex-col items-center py-12 text-center'>
                             <div className='container p-8 text-white'>
-                                <h3 className='mb-4 font-medium italic text-[#4B231] lg:text-xl'>
+                                <h3 className='mb-4 font-medium italic text-secondary lg:text-xl'>
                                     – Experience the luxurious treatments
                                 </h3>
 
@@ -203,7 +195,7 @@ export default function Home(): JSX.Element {
                             <div className='container flex flex-col gap-y-8 px-8 pb-8 md:flex-row md:gap-x-16 xl:gap-x-16 xl:px-32 2xl:gap-x-32 2xl:px-44 2xl:py-16'>
                                 {/* offer card Aromatic Healing Therapy */}
                                 <div className='w-full 2xl:scale-110'>
-                                    <div className='w-full rounded-t-2xl bg-[#fdece5] text-[#4B2317] p-8 h-44 lg:h-48 flex flex-col justify-center items-center text-center'>
+                                    <div className='w-full rounded-t-2xl bg-[#F6D5AA] text-[#4B2317] p-8 h-44 lg:h-48 flex flex-col justify-center items-center text-center'>
                                     <h3 className='mb-3 text-sm font-semibold lg:text-xl'>SPECIAL OFFER ON</h3>
                                     <h3 className='text-2xl font-semibold lg:text-4xl leading-snug'>
                                         Aromatic Healing Therapy <br /> 心灵香薰
@@ -224,7 +216,7 @@ export default function Home(): JSX.Element {
                                         // href='https://api.whatsapp.com/send/?phone=6591444649&text=Hi%2C+I+would+like+to+make+a+reservation+for+Aromatherapy.+Name+%3A+Email+%3A+Date+%3A+Time+%3A&type=phone_number&app_absent=0'
                                         target='_blank'
                                         rel='noopener noreferrer'
-                                        className='c-button-primary bg-[#fdece5] text-[#4B2317] px-8 py-4 text-xl text-primary lg:px-28'
+                                        className='c-button-primary bg-[#F6D5AA] text-[#4B2317] px-8 py-4 text-xl text-primary lg:px-28'
                                         >
                                         Book Now
                                         </a>
@@ -234,7 +226,7 @@ export default function Home(): JSX.Element {
 
                                 {/* offer card Ancient Acupressure */}
                                 <div className='w-full 2xl:scale-110'>
-                                    <div className='w-full rounded-t-2xl bg-[#fdece5] text-[#4B2317]  p-8 h-44 lg:h-48 flex flex-col justify-center items-center text-center'>
+                                    <div className='w-full rounded-t-2xl bg-[#F6D5AA] text-[#4B2317]  p-8 h-44 lg:h-48 flex flex-col justify-center items-center text-center'>
                                     <h3 className='mb-3 text-sm font-semibold lg:text-xl'>SPECIAL OFFER ON</h3>
                                     <h3 className='text-2xl font-semibold lg:text-4xl leading-snug'>
                                         Ancient Acupressure <br /> 古法指压
@@ -256,7 +248,7 @@ export default function Home(): JSX.Element {
                                         href='https://api.whatsapp.com/send/?phone=6591444649&text=Hi%2C+I+would+like+to+make+a+reservation+for+Ancient+Acupressure.+Name+%3A+Email+%3A+Date+%3A+Time+%3A&type=phone_number&app_absent=0'
                                         target='_blank'
                                         rel='noopener noreferrer'
-                                        className='c-button-primary bg-[#fdece5] text-[#4B2317] px-8 py-4 text-xl text-primary lg:px-28'
+                                        className='c-button-primary bg-[#F6D5AA] text-[#4B2317] px-8 py-4 text-xl text-primary lg:px-28'
                                         >
                                         Book Now
                                         </a>
@@ -278,7 +270,7 @@ export default function Home(): JSX.Element {
 
                         <div className='flex flex-col justify-center gap-y-4 py-8 text-center lg:flex-row lg:items-center lg:justify-between'>
                             <div className='flex flex-col gap-4 lg:text-left'>
-                                <h3 className='font-medium italic text-primary lg:text-xl'>– Step into our world</h3>
+                                <h3 className='font-medium italic text-tertiary lg:text-xl'>– Step into our world</h3>
 
                                 <h2 className='text-2xl font-semibold lg:text-4xl'>ABOUT US</h2>
 
@@ -304,7 +296,7 @@ export default function Home(): JSX.Element {
                     <div className='container p-8'>
                         <div className='flex flex-col justify-center gap-y-4 py-8 text-center lg:flex-row lg:items-center'>
                             <div className='flex flex-col gap-4'>
-                                <h3 className='font-medium italic text-primary lg:text-xl'>– Browse our values</h3>
+                                <h3 className='font-medium italic text-tertiary lg:text-xl'>– Browse our values</h3>
 
                                 <h2 className='text-2xl font-semibold text-primary lg:text-4xl'>
                                     DISCOVER WHY WE ARE DIFFERENT
@@ -320,7 +312,7 @@ export default function Home(): JSX.Element {
                                     <a
                                         href='#contact'
                                         type='button'
-                                        className='c-button-primary  bg-[#4B2317]  text-white  px-8 py-4 text-lg '
+                                        className='c-button-primary bg-[#F6D5AA] text-[#4B2317] px-8 py-4 text-lg '
                                     >
                                         Start My Enjoyment
                                     </a>
@@ -359,7 +351,7 @@ export default function Home(): JSX.Element {
                     {/* galleries section*/}
                     <div className='w-full'>
                         <div className='container flex flex-col gap-4 p-8 text-center'>
-                            <h3 className='font-medium italic text-[#4B2317] lg:text-xl'>– Immerse yourself in</h3>
+                            <h3 className='font-medium italic text-tertiary lg:text-xl'>– Immerse yourself in</h3>
 
                             <h2 className='text-2xl font-semibold text-primary lg:text-4xl'>
                                 PICTURE THE VIBES YOU&apos;LL <br className='hidden lg:block' />
@@ -382,7 +374,7 @@ export default function Home(): JSX.Element {
                     <div className="w-full bg-[url('/images/reviews-bg.webp')] bg-cover bg-center bg-no-repeat">
                         <div className='container px-8 py-12 lg:py-24'>
                             <div className='mb-12 flex flex-col gap-4 text-center lg:mb-24'>
-                                <h3 className='font-medium italic text-white lg:text-xl'>
+                                <h3 className='font-medium italic text-secondary lg:text-xl'>
                                     – This might convince you
                                 </h3>
 
@@ -403,7 +395,7 @@ export default function Home(): JSX.Element {
                                     href='https://www.google.com/search?q=the+healing+loft&oq=the+hea&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGEAyBggCEEUYOTIGCAMQRRg7MgoIBBAuGLEDGIAEMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEIMTA1NWowajSoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x31da16ff00000001:0xea1d62f334036a92,1,,,,'
                                     target='_blank'
                                     type='button'
-                                    className='c-button-primary  bg-[#4B2317]  text-white   px-8 py-4 text-lg font-extrabold '
+                                    className='c-button-primary bg-[#F6D5AA] text-[#4B2317] px-8 py-4 text-lg font-extrabold '
                                 >
                                     See All Reviews
                                 </a>
@@ -449,7 +441,7 @@ export default function Home(): JSX.Element {
                                 aria-label='The Healing Loft'
                                 href='tel:+6591444649'
                                 target='_blank'
-                                className='c-button-primary relative z-10  bg-[#4B2317]  text-white   text-xl '
+                                className='c-button-primary relative z-10 bg-[#F6D5AA] text-[#4B2317]  text-xl '
                             >
                                 +65 9144 4649
                             </a>
