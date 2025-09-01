@@ -1,7 +1,7 @@
 import { TherapistsType } from '@/types/global'
 import { JSX } from 'react'
 
-
+import CindyImage from '@/assets/therapists/Cindy.webp' 
 import JasmineImage from '@/assets/therapists/Jasmine.webp'
 import LilaImage from '@/assets/therapists/lila.webp'
 // import NicoleImage from '@/assets/therapists/Nicole.webp'
@@ -92,20 +92,20 @@ export default function Treatment(): JSX.Element {
             ]
         },
     
-        {
-            image: DorisImage,
-            name: 'Doris',
-            ethnicity: 'Chinese',
-            desc: "I am Doris. I am gentle, considerate, approachable, careful and meticulous in my work. My service concept is customer-centric, focusing on customer needs and experience.",
-            expertise: [
-                "Ancient acupressure",
-                "THL",
-                "Thai yoga",
-                "Aromatic Healing Therapy",
-                "Foot bath",
-                "Ear cleaning"
-            ]
-        },
+        // {
+        //     image: DorisImage,
+        //     name: 'Doris',
+        //     ethnicity: 'Chinese',
+        //     desc: "I am Doris. I am gentle, considerate, approachable, careful and meticulous in my work. My service concept is customer-centric, focusing on customer needs and experience.",
+        //     expertise: [
+        //         "Ancient acupressure",
+        //         "THL",
+        //         "Thai yoga",
+        //         "Aromatic Healing Therapy",
+        //         "Foot bath",
+        //         "Ear cleaning"
+        //     ]
+        // },
         {
             image: kimiImage,
             name: 'Kimi',
@@ -129,6 +129,20 @@ export default function Treatment(): JSX.Element {
                 "Traditional Acupressure",
                 "THL",
                 "Aromatic Healing Therapy",
+                "Foot Spa"
+            ]
+        },
+        {
+            image: CindyImage, // pastikan kamu punya import CindyImage
+            name: 'Cindy',
+            ethnicity: 'Chinese',
+            desc: "Hello! I’m Cindy from China, with 16 years of experience in therapeutic massage. I believe a great therapist combines three strengths: professional insight to detect hidden tension, skilled techniques to balance deep and gentle pressure, and genuine care to listen and support each client. For me, massage is more than a craft — it’s a shared journey toward natural healing and well-being. I look forward to welcoming you.",
+            expertise: [
+                "Localized Therapy",
+                "Deep Tissue Massage",
+                "Aromatic Healing Therapy",
+                "Signature THL Therapy",
+                "Head Spa",
                 "Foot Spa"
             ]
         }
