@@ -13,6 +13,7 @@ import kimiImage from '@/assets/therapists/kimi.webp'
 import DorisImage from '@/assets/therapists/Doris.webp'
 // import ClaireImage from '@/assets/therapists/Claire.webp'
 import YoyoImage from '@/assets/therapists/Yoyo.webp'
+import RubyImage from '@/assets/therapists/ruby.webp'
 
 export default function Treatment(): JSX.Element {
     const treatmentData = [
@@ -145,9 +146,23 @@ export default function Treatment(): JSX.Element {
                 "Head Spa",
                 "Foot Spa"
             ]
+        },
+        {
+            image: RubyImage, // pastikan kamu import RubyImage
+            name: 'Ruby',
+            ethnicity: 'Myanmar',
+            desc: "Hello! I’m Ruby from Myanmar, with over 2 years of massage experience. My style is inspired by Japanese techniques, using strong and precise finger pressure. Clients have consistently praised both my skills and my attentive service. I truly love my work, and helping people relieve pain and restore vitality brings me the greatest sense of achievement. I look forward to guiding you toward a healthier and more balanced life.",
+            expertise: [
+                "Ancient Acupressure",
+                "Thai Yoga",
+                "Aromatic Healing Therapy",
+                "Signature THL Therapy",
+                "Foot Bath",
+                "Head Massage",
+                "Gua Sha"
+            ]
         }
-
-
+    
     ]
 
     return (
