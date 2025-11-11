@@ -14,6 +14,7 @@ import DorisImage from '@/assets/therapists/Doris.webp'
 // import ClaireImage from '@/assets/therapists/Claire.webp'
 import YoyoImage from '@/assets/therapists/Yoyo.webp'
 import RubyImage from '@/assets/therapists/ruby.webp'
+import IvyImage from '@/assets/therapists/Ivy.webp'
 
 export default function Treatment(): JSX.Element {
     const treatmentData = [
@@ -161,8 +162,20 @@ export default function Treatment(): JSX.Element {
                 "Head Massage",
                 "Gua Sha"
             ]
+        },
+        {
+            image: IvyImage, // pastikan kamu import IvyImage
+            name: 'Ivy',
+            ethnicity: 'Chinese',
+            desc: "Hello! I’m Ivy from China. I’ve been practicing massage for 4 years, with strong communication skills and a deep sense of responsibility. In a safe and nurturing space, my techniques help release tension and guide you into deep relaxation of both body and mind.",
+            expertise: [
+                "Aromatic Healing Therapy",
+                "Thai Yoga",
+                "Traditional Acupressure",
+                "Signature THL Therapy",
+                "Foot Spa",
+            ]
         }
-    
     ]
 
     return (
